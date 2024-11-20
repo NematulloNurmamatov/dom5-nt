@@ -94,7 +94,7 @@ function render(list = students) {
     delete_btn.setAttribute("onclick", `deleteUser(${idx})`);
     let edit_btn = document.createElement("button");
     edit_btn.classList.add(
-      "bg-orange-600",
+      "bg-green-600",
       "py-2",
       "px-4",
       "rounded-xl",
