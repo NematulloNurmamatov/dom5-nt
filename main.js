@@ -27,28 +27,28 @@ function isDarckk() {
 
 let students = [
   {
-    first_name: "Oybek",
-    last_name: "Mirfayzullayev",
+    first_name: "Nematullo",
+    last_name: "Nurmuhammadov",
     is_active: 25,
   },
   {
-    first_name: "Ulug'bek",
-    last_name: "Shamsiddinov",
+    first_name: "Muslihiddin",
+    last_name: "Nurmamatov",
     is_active: 26,
   },
   {
-    first_name: "Ulug'bek",
+    first_name: "Yusuf",
     last_name: "Abdullayev",
     is_active: 23,
   },
   {
-    first_name: "Alpomish",
-    last_name: "Jaldoshov",
+    first_name: "Ali",
+    last_name: "Nuriddinov",
     is_active: 19,
   },
   {
     first_name: "Asadbek",
-    last_name: "Nurberdiyev",
+    last_name: "Fayzullayev",
     is_active: 18,
   },
 ];
