@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD , Filter</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <style>
+        body {
+            background-color: #f5f5f5;
+        }
+
+        .b {
+            border: 1px solid #274d92;
+        }
+    </style>
+</head>
+
+<body id="body">
+
+    <button class="b container mx-auto w-[80px] mt-[20px] mb-[-200px] ml-[20px]"
+        onmousedown="isDarckk()">isDarck</button>
+
+
+
+    <div class="container mx-auto shadow w-[50%] my-10 form flex flex-col gap-4 item-start justify-start">
+        <input
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            type="text" placeholder="Enter First Name " id="first_name">
+        <input
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            type="text" placeholder=" Enter Last Name" id="last_name">
+        <input
+            class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5"
+            type="number" placeholder="Enter Roll No" id="is_active">
+        <button class="bg-blue-500 text-white  py-2 w-[250px]" id="add_user" onclick="addUser()">O'quvchi
+            qo'shish</button>
+        <button class="bg-orange-500 text-white  py-2 w-[250px] hidden" id="edit_user"
+            onclick="editUserHandle()">Tahrirlash</button>
+    </div>
+
+
+
+
+
+
+    <div class="container mx-auto t">
+        <table class="w-full text-sm text-left">
+            <thead class="text-xs text-gray-700 uppercase bg-gray-50">
+                <tr class="trr">
+                    <th class="px-6 py-3">
+                        N#
+                    </th>
+                    <th class="px-6 py-3">
+                        Ismi
+                    </th>
+                    <th class="px-6 py-3">
+                        Familyasi
+                    </th>
+                    <th class="px-6 py-3">
+                        Holati
+                    </th>
+                    <th class="px-6 py-3">
+                        Amallar
+                    </th>
+                </tr>
+            </thead>
+            <tbody id="student_table_tbody">
+
+            </tbody>
+        </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
